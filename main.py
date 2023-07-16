@@ -507,3 +507,4 @@ with open(csv_path, 'a') as error_df:
         if error_patient not in existing_patients:
             writer_object.writerow(error_patient)
     error_df.close()
+
