@@ -224,10 +224,9 @@ def fetch_element(location: str, condition=EC.presence_of_element_located, locat
                 time.sleep(1)
         return None
 
-
 # Login with username and password.
-username = 'ENTER USERNAME HERE'
-password = 'ENTER PASSWORD HERE'
+username = 'INSERT USERNAME HERE'
+password = 'INSERT PASSWORD HERE'
 username_field = fetch_element(
     '/html/body/div[2]/div/div/div[1]/div/rev-login-page/div/div[2]/div/rev-login-form/div[2]/div/form/div[1]/div/input',
     EC.element_to_be_clickable)
